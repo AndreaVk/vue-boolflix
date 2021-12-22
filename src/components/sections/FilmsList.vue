@@ -1,12 +1,12 @@
 <template>
-  <section>
-    <h2>Films</h2>
-    <ul>
-        <li v-for="(film,index) in filmsOrderByPopularity" :key="index">
+    <section>
+        <h2>Films</h2>
+        <ul>
+            <li v-for="(film,index) in filmsOrderByPopularity" :key="index">
             <Card :info="film"/>
-        </li>
-    </ul>
-  </section>
+            </li>
+        </ul>
+    </section>
 </template>
 
 <script>
