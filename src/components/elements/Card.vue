@@ -28,6 +28,11 @@ export default {
                 'fr'
             ]
         }
+    },
+    computed:{
+        vote(){
+            return Math.ceil(this.info.vote_average / 2);
+        }
     }
 }
 </script>
